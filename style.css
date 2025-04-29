@@ -1,29 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-color: black;
+}
 .main {
-  height: 80vh;
+  height: 70vh;
   background-image: url("./assests/images/bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: max(1200px, 100vw);
+  height: 644px;
   position: relative;
 }
 
 .main .box {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
-  opacity: 0.44;
+  opacity: 0.69;
   background-color: black;
   position: absolute;
+  height: 644px;
   top: 0;
 }
+
 nav {
-  max-width: 80vw;
+  max-width: 60vw;
   justify-content: space-between;
   margin: auto;
   display: flex;
   justify-items: center;
-  height: 62px;
+  height: 100px;
+}
+
+nav img {
+  margin-top: 10px;
+  color: red;
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  margin-top: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30 px;
+}
+
+.hero> :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
 }
